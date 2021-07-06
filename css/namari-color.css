@@ -15,7 +15,7 @@
 
 
 body {
-    background:#161616;
+    background:#080808;
 }
 
 
@@ -172,7 +172,7 @@ body {
 
 #banner h2 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size:18px;
+    font-size:20px;
     font-weight:300;
     color:#fff;
 }
@@ -182,16 +182,16 @@ body {
 
 .section-title {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size: 34px;
-    font-weight:700;
+    font-size: 28px;
+    font-weight:400;
     color:#fff;
 }
 
 .section-subtitle {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size: 16px;
+    font-size: 20px;
     font-weight:300;
-    color:#9c9c9c;
+    color:#fff;
 }
 
 /* Testimonial */
@@ -218,7 +218,7 @@ h1 {
 
 h2 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size: 34px;
+    font-size: 36px;
     font-weight:300;
     color:#fff;
 }
@@ -226,7 +226,7 @@ h2 {
 h3 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size: 30px;
-    font-weight:700;
+    font-weight:500;
     color:#fff;
 }
 
@@ -234,7 +234,7 @@ h4 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size: 18px;
     font-weight:400;
-    color:#fff;
+    color:#dd4a4a;
 }
 
 h5 {
@@ -319,11 +319,11 @@ h6 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size:12px;
     font-weight:normal;
-    color:#999;
+    color:#fff;
 }
 
 /* Footer Icon Color */
 
 #landing-footer i {
-    color:#999;
+    color:#00cc66;
 }
