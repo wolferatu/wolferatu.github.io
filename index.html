@@ -56,6 +56,12 @@
                         <!--Social Icons in Header-->
                         <ul class="social-icons">
                             <li>
+                                <a target="_blank" title="Buy me a coffee" href="https://www.buymeacoffee.com/wolferatu">
+                                    <i class="fa fa-coffee fa-1x"></i><span>Buy me a coffee</span>
+                                </a>
+                            </li>
+                            <li>
+                            <li>
                                 <a target="_blank" title="YouTube" href="https://www.youtube.com/channel/UC3E2L6LZb0lQBL_xWhMF-jA">
                                     <i class="fa fa-youtube-play fa-1x"></i><span>YouTube</span>
                                 </a>
@@ -106,24 +112,23 @@
             </div>
 
             <div class="col-2-3">
-               <h3>Welcome. I am Wolferatu, an indie game dev working on Portal Coma, an atmospheric first-person horror game.</h3>
-		<h2>If you would like to support this project please consider buying me a coffee!</h2>
+               <h3>Welcome. I am Wolferatu, an indie game developer working on a horror game called Portal Coma.</h3>
+		<h2>I am creating an atmospheric first-person horror game with stealth elements about escaping things that came out of a portal. </h2>
+		<h2>If you would like to support this project (thanks!), consider getting the Portal Coma music, I will be updating this album with new tracks during development.</h2>
 		<center>
-		<!--coffee-->
-                <a href="https://www.buymeacoffee.com/wolferatu" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-                <!--coffee-->
-                </center>
-		<h2>If you are interested in news about secret vampire wolf projects sign up to the mailing list below. I wont clutter your inbox, I'll just let you know about new releases and you can unsubscribe anytime you want.</h2>
-              <!--mail-->
-                <form id= "emailForm" onsubmit="saveToFirebase(); return false">
-                <input type="email" name="email_add" placeholder="Email"><span class="highlight"></span><span class="bar"></span>
-                <button value="submit" type="submit" class="button buttonSub" value= "submit_button" id="sub" onclick="saveToFirebase()">SIGN ME UP
-                </button>
-                </form>
-                <!--mail-->
-                
-		<h2>Please visit <a target="_blank" href="http://www.twitter.com/wolferatu">Twitter</a> for development updates. If you want to contact me, you can send a message via Twitter or an email to admin at wolferatu.com. Scroll down below for more information on the game. Thanks for visiting!</h2>
+		<iframe style="border: 0; width: 40%; height: 50;" src="https://bandcamp.com/EmbeddedPlayer/album=3797550207/size=small/bgcol=ffffff/linkcol=2ebd35/transparent=true/" seamless><a href="https://wolferatu.bandcamp.com/album/portal-coma">Portal Coma by Wolferatu</a></iframe>
+		</center>
+		<h2>If you want to contribute even more you can buy me a coffee...</h2>
+		<center>
+                <a href="https://www.buymeacoffee.com/wolferatu"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=🐺&slug=wolferatu&button_colour=2e3436&font_colour=ffffff&font_family=Lato&outline_colour=ffffff&coffee_colour=FFDD00"></a>
+		</center>
 
+		<h2>For development updates or if you want to contact me go to <a target="_blank" href="http://www.twitter.com/wolferatu">Twitter</a>.</h2>
+
+		<h2>Scroll down below for more information on the game.</h2>
+		<center>
+		<h3>Thanks for visiting!</h3>
+		</center>
     </header>
 
     <!--Main Content Area-->
@@ -162,6 +167,11 @@
             <!--Social Icons in Header-->
             <ul class="social-icons">
             	<li>
+		        <a target="_blank" title="Buy me a coffee" href="https://www.buymeacoffee.com/wolferatu">
+		            <i class="fa fa-coffee fa-1x"></i><span>Buy me a coffee</span>
+		        </a>
+		    </li>
+            	<li>
 			<a target="_blank" title="YouTube" href="https://www.youtube.com/channel/UC3E2L6LZb0lQBL_xWhMF-jA">
 			    <i class="fa fa-youtube-play fa-1x"></i><span>YouTube</span>
 			</a>
@@ -192,29 +202,6 @@
 <script src="js/jquery.stickyNavbar.min.js"></script>
 <script src="js/jquery.waypoints.min.js"></script>
 <script src="js/site.js"></script>
-<script src="js/mail.js"></script>
-
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-database.js"></script>
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyCBheI6BmeKu0rfNdhAm1zLi3YXzA8y9oc",
-    authDomain: "warewolfmailing.firebaseapp.com",
-    databaseURL: "https://warewolfmailing-default-rtdb.firebaseio.com/",
-    projectId: "warewolfmailing",
-    storageBucket: "warewolfmailing.appspot.com",
-    messagingSenderId: "79640330693",
-    appId: "1:79640330693:web:efcb4dc77beb31804c0bac"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  var database = firebase.database();
-</script>
 
 </body>
 </html>
